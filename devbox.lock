@@ -1,0 +1,153 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "dotnet-sdk_8@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#dotnet-sdk_8",
+      "source": "devbox-search",
+      "version": "8.0.403",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ln8i3c6ps9ljd5n4acqkdzvdd192m41c-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ln8i3c6ps9ljd5n4acqkdzvdd192m41c-dotnet-sdk-8.0.403"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bhi2ij36nnsnybhnn22zfv99zhrr65r5-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bhi2ij36nnsnybhnn22zfv99zhrr65r5-dotnet-sdk-8.0.403"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p51f8vilp4x81msqswhmlsj1kdiwngv0-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p51f8vilp4x81msqswhmlsj1kdiwngv0-dotnet-sdk-8.0.403"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wdg63igqfkscr4al2xwp5yyl2396wf9n-dotnet-sdk-8.0.403",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wdg63igqfkscr4al2xwp5yyl2396wf9n-dotnet-sdk-8.0.403"
+        }
+      }
+    },
+    "dotnet-sdk_9@latest": {
+      "last_modified": "2025-04-12T15:53:49Z",
+      "resolved": "github:NixOS/nixpkgs/52d0eded529af34e91df6b2a2bc32eb636637cd2#dotnet-sdk_9",
+      "source": "devbox-search",
+      "version": "9.0.203",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h57pc2s8rndczd1q5kl3gvy910zkpcng-dotnet-sdk-wrapped-9.0.203",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h57pc2s8rndczd1q5kl3gvy910zkpcng-dotnet-sdk-wrapped-9.0.203"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a4yq2q7383b92xp5g5hnn0lvmcmzyb69-dotnet-sdk-wrapped-9.0.203",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a4yq2q7383b92xp5g5hnn0lvmcmzyb69-dotnet-sdk-wrapped-9.0.203"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3r5mcr95xc7xp1f06m5fs63mscip41dq-dotnet-sdk-wrapped-9.0.203",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3r5mcr95xc7xp1f06m5fs63mscip41dq-dotnet-sdk-wrapped-9.0.203"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0n1cml5aixn8ynb012rpsk34wm3if689-dotnet-sdk-wrapped-9.0.203",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0n1cml5aixn8ynb012rpsk34wm3if689-dotnet-sdk-wrapped-9.0.203"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-04-13T09:22:33Z",
+      "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?lastModified=1744536153&narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg%2FN38%3D"
+    },
+    "nushell@latest": {
+      "last_modified": "2025-03-23T05:31:05Z",
+      "resolved": "github:NixOS/nixpkgs/dd613136ee91f67e5dba3f3f41ac99ae89c5406b#nushell",
+      "source": "devbox-search",
+      "version": "0.103.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7dcvklmwwvfjzqgak8ziv104lsff0cfv-nushell-0.103.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7dcvklmwwvfjzqgak8ziv104lsff0cfv-nushell-0.103.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5apwqfpy0nkblh6bqvnyg40yhhvvx1y1-nushell-0.103.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5apwqfpy0nkblh6bqvnyg40yhhvvx1y1-nushell-0.103.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i4w79bzcxqcjv8qjb91s24sa7xwvalq8-nushell-0.103.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/i4w79bzcxqcjv8qjb91s24sa7xwvalq8-nushell-0.103.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wp7rmayh32cy2ypr6ya21b7g2dqpcqw2-nushell-0.103.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wp7rmayh32cy2ypr6ya21b7g2dqpcqw2-nushell-0.103.0"
+        }
+      }
+    }
+  }
+}

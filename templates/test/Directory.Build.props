@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\$(ProjectName.Replace(' ', '_').Replace('.Tests', ''))\$(ProjectName.Replace(' ', '_').Replace('.Tests', '')).csproj" />
+	</ItemGroup>
+
+</Project>
