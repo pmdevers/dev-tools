@@ -22,7 +22,7 @@ A shared developer tooling environment for initializing and managing .NET and ot
 Run the install script to set up the tools and environment:
 
 ```sh
-./install.sh
+curl -sSL https://raw.githubusercontent.com/pmdevers/dev-tools/refs/heads/main/install.sh | bash
 ```
 
 This will:
