@@ -11,7 +11,7 @@ def "main update" [] {
     print "Updating Dev Tools..."
     # Add update logic here
 
-    (cd $HOME/.dev-tools && git pull origin main)
+    (cd $env.HOME/.dev-tools; git pull origin main)
 
     print "Dev Tools updated successfully."
 }
