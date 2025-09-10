@@ -28,8 +28,8 @@ fi
 # Add dev-tools to Path
 echo "🔧 Adding dev-tools to PATH..."
 
-export PATH=$TOOLS_DIR:$PATH
+export PATH=$HOME/.dev-tools:$PATH
 
-chmod 755 $TOOLS_DIR/$SCRIPT
+chmod 755 $HOME/.dev-tools/dev
 
 echo "✅ dev-tools cli is installed."
