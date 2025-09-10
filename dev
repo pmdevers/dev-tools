@@ -1,7 +1,19 @@
 #!/usr/bin/env nu
 
 def main [] {
-    dev -h
+    print "Dev Tools - A collection of development utilities."
+    print "Version 1.0.0"
+    print ""
+    print "Use -h or --help to see available commands and options."
+}
+
+def "main update" [] {
+    print "Updating Dev Tools..."
+    # Add update logic here
+
+    (cd $HOME/.dev-tools && git pull origin main)
+
+    print "Dev Tools updated successfully."
 }
 
 def "main init" [
